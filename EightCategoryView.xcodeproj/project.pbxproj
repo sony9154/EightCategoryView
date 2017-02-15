@@ -13,7 +13,7 @@
 		AB9C3BDB1E53F9FE00E8C4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9C3BD91E53F9FE00E8C4CF /* Main.storyboard */; };
 		AB9C3BDD1E53F9FE00E8C4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9C3BDC1E53F9FE00E8C4CF /* Assets.xcassets */; };
 		AB9C3BE01E53F9FE00E8C4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9C3BDE1E53F9FE00E8C4CF /* LaunchScreen.storyboard */; };
-		AB9C3BE91E53FAB400E8C4CF /* ChannelsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9C3BE81E53FAB400E8C4CF /* ChannelsController.m */; };
+		AB9C3BE91E53FAB400E8C4CF /* EightCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9C3BE81E53FAB400E8C4CF /* EightCategory.m */; };
 		AB9C3BED1E53FBE100E8C4CF /* EightCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9C3BEB1E53FBE100E8C4CF /* EightCategoryCell.m */; };
 		AB9C3BEE1E53FBE100E8C4CF /* EightCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9C3BEC1E53FBE100E8C4CF /* EightCategoryCell.xib */; };
 /* End PBXBuildFile section */
@@ -29,8 +29,8 @@
 		AB9C3BDC1E53F9FE00E8C4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB9C3BDF1E53F9FE00E8C4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB9C3BE11E53F9FE00E8C4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB9C3BE71E53FAB400E8C4CF /* ChannelsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsController.h; sourceTree = "<group>"; };
-		AB9C3BE81E53FAB400E8C4CF /* ChannelsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsController.m; sourceTree = "<group>"; };
+		AB9C3BE71E53FAB400E8C4CF /* EightCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EightCategory.h; sourceTree = "<group>"; };
+		AB9C3BE81E53FAB400E8C4CF /* EightCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EightCategory.m; sourceTree = "<group>"; };
 		AB9C3BEA1E53FBE100E8C4CF /* EightCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EightCategoryCell.h; sourceTree = "<group>"; };
 		AB9C3BEB1E53FBE100E8C4CF /* EightCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EightCategoryCell.m; sourceTree = "<group>"; };
 		AB9C3BEC1E53FBE100E8C4CF /* EightCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EightCategoryCell.xib; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 				AB9C3BD41E53F9FE00E8C4CF /* AppDelegate.m */,
 				AB9C3BD61E53F9FE00E8C4CF /* ViewController.h */,
 				AB9C3BD71E53F9FE00E8C4CF /* ViewController.m */,
-				AB9C3BE71E53FAB400E8C4CF /* ChannelsController.h */,
-				AB9C3BE81E53FAB400E8C4CF /* ChannelsController.m */,
+				AB9C3BE71E53FAB400E8C4CF /* EightCategory.h */,
+				AB9C3BE81E53FAB400E8C4CF /* EightCategory.m */,
 				AB9C3BEA1E53FBE100E8C4CF /* EightCategoryCell.h */,
 				AB9C3BEB1E53FBE100E8C4CF /* EightCategoryCell.m */,
 				AB9C3BEC1E53FBE100E8C4CF /* EightCategoryCell.xib */,
@@ -168,7 +168,7 @@
 				AB9C3BD81E53F9FE00E8C4CF /* ViewController.m in Sources */,
 				AB9C3BD51E53F9FE00E8C4CF /* AppDelegate.m in Sources */,
 				AB9C3BED1E53FBE100E8C4CF /* EightCategoryCell.m in Sources */,
-				AB9C3BE91E53FAB400E8C4CF /* ChannelsController.m in Sources */,
+				AB9C3BE91E53FAB400E8C4CF /* EightCategory.m in Sources */,
 				AB9C3BD21E53F9FE00E8C4CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

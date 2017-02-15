@@ -1,5 +1,5 @@
 //
-//  ChannelsController.h
+//  EightCategory.h
 //  NewGttv
 //
 //  Created by JoJo Lin on 2017/2/10.
@@ -11,7 +11,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface ChannelsController : NSObject <UICollectionViewDataSource, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface EightCategory : NSObject <UICollectionViewDataSource, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (strong, nonatomic) UICollectionView *collectionView;
 @property BOOL hideFavorite;

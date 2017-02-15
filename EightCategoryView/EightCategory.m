@@ -6,19 +6,19 @@
 //  Copyright © 2017年 VASCreative. All rights reserved.
 //
 
-#import "ChannelsController.h"
+#import "EightCategory.h"
 //#import "ChannelCell.h"
 //#import "CommonDefs.h"
 //#import "LivePlayerVC.h"
 #import "EightCategoryCell.h"
 
-@interface ChannelsController()
+@interface EightCategory()
 {
     UIViewController *_presentingVC;
 }
 @end
 
-@implementation ChannelsController
+@implementation EightCategory
 
 - (id)init:(UIViewController *)viewController withView:(UIView *)superView yOffset:(CGFloat)offset {
     self = [super init];

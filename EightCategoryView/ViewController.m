@@ -7,10 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "ChannelsController.h"
+#import "EightCategory.h"
 
 @interface ViewController () {
-    ChannelsController *_channelsController;
+    EightCategory *_channelsController;
 }
 
 @end
@@ -21,7 +21,7 @@
     [super viewDidLoad];
     
     if ( ! _channelsController )
-        _channelsController = [[ChannelsController alloc] init:self withView:self.view yOffset:0];
+        _channelsController = [[EightCategory alloc] init:self withView:self.view yOffset:0];
 }
 
 
